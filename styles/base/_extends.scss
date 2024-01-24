@@ -1,0 +1,21 @@
+%extend-after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    padding-top: 85px;
+    font-family: unicons-line;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+%extend-bar-hover{
+    width: 100px;
+    cursor: pointer;
+}

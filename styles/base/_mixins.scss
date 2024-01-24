@@ -1,0 +1,5 @@
+@mixin  mixin ($tp, $td, $m) {
+    transition-property: $tp;
+    transition-duration: $td;
+    margin-left: $m;
+}
