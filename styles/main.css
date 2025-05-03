@@ -414,7 +414,7 @@ textarea {
 }
 
 .bar.i::after {
-  background-color: rgb(4, 190, 35);
+  background: linear-gradient(45deg, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
 }
 
 .bar.i:hover:after {
